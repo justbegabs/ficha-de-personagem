@@ -29,11 +29,14 @@ body {
 }
 
 .infos {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  width: max-content;
 }
 
 .atributos {
-  width: 50%;
+  width: fit-content;
 }
 
 button {
@@ -58,41 +61,41 @@ button {
 }
 
 .pentagrama {
-  width: 100%;
+  width: 500px;
 }
 
 .agilidade {
   position:absolute;
-  top: 48%;
-  right: 17%;
+  top: 300px;
+  right: 215px;
   color: white;
 }
 
 .força {
   position: absolute;
-  top: 64%;
-  right: 0%;
+  top: 530px;
+  right: 10px;
   color: white;
 }
 
 .vigor {
   position: absolute;
-  top: 64%;
-  right: 42%;
+  top: 530px;
+  right: 440px;
   color: white;
 }
 
 .presença {
   position: absolute;
-  top: 75%;
-  right: 0%;
+  top: 680px;
+  right: 70px;
   color: white;
 }
 
 .intelecto {
   position: absolute;
-  top: 75%;
-  right: 37%;
+  top: 680px;
+  right: 350px;
   color: white;
 }
 
