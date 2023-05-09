@@ -1,0 +1,132 @@
+.txtquesome {
+  padding: 5px 0;
+  text-align: left;
+  display: none;
+}
+
+.btnquefazsumir {
+  display: block;
+}
+
+body {
+  background-image: linear-gradient(rgb(75, 12, 12), black);
+}
+
+.branco {
+  color: #fff;
+}
+
+.cinza {
+  color: #999;
+}
+
+.escuro {
+  color: #707070;
+}
+
+.geral {
+  display: flex;
+}
+
+.infos {
+  width: 50%;
+}
+
+.atributos {
+  width: 50%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #707070;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.armas {
+  display: flex;
+  width: 100%;
+}
+
+.equipamentos {
+  width: 50%;
+}
+
+.modificações {
+  width: 50%;
+}
+
+.pentagrama {
+  width: 100%;
+}
+
+.agilidade {
+  position:absolute;
+  top: 48%;
+  right: 17%;
+  color: white;
+}
+
+.força {
+  position: absolute;
+  top: 64%;
+  right: 0%;
+  color: white;
+}
+
+.vigor {
+  position: absolute;
+  top: 64%;
+  right: 42%;
+  color: white;
+}
+
+.presença {
+  position: absolute;
+  top: 75%;
+  right: 0%;
+  color: white;
+}
+
+.intelecto {
+  position: absolute;
+  top: 75%;
+  right: 37%;
+  color: white;
+}
+
+.btn-wrap {
+  position: relative;
+  text-align: center;
+}
+.btn-wrap button {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 30px;
+  padding: 0;
+  border: 0 none;
+}
+
+.setDiceValue {
+  display: inline-block;
+}
+
+.chkbox {
+  padding-left: 10px;
+  font-weight: bold;
+  float: right;
+  margin-left: -100px;
+}
+
+.checkbox {
+  width: 100px;
+}
+
+.classe {
+  width: 400px;
+  display: none;
+}
