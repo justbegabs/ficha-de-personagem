@@ -18,10 +18,24 @@ function setDiceValue(elem) {
   x.innerHTML = getRandomInterval(1, 20);
 }
 
+// function onClickChangeZIndex(myDivId) {
+//   var myDiv = document.getElementById(myDivId);
+//   console.log('oi', myDiv);
+//   console.log('antes', myDiv.style.zIndex);
+//   myDiv.style.zIndex = myDiv.style.zIndex - 1;
+//   console.log('depois', myDiv.style.zIndex);
+// }
+
 function onClickChangeZIndex(myDivId) {
   var myDiv = document.getElementById(myDivId);
-  console.log('oi', myDiv);
-  console.log('antes', myDiv.style.zIndex);
-  myDiv.style.zIndex = myDiv.style.zIndex - 1;
-  console.log('depois', myDiv.style.zIndex);
+  zi = getComputedStyle(myDiv).zIndex;
+  zi2 = myDiv.style.zIndex;
+  console.log(zi, zi2, myDivId, zi - 1, zi2 - 1);
+  zi = parseInt(zi);
+  zi2 = parseInt(zi2);
+  console.log(zi, zi2, myDivId, zi - 1, zi2 - 1);
+  zi = zi ? zi : 0;
+  zi2 = zi2 ? zi2 : 0;
+  console.log(zi, zi2, myDivId, zi - 1, zi2 - 1);
+  myDiv.style.zIndex = zi - 1;
 }
